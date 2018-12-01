@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.5</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>threenine.co.uk</Company>
+    <Authors>Gary Woodfine</Authors>
+    <PackageProjectUrl>https://threenine.github.io/Threenine.Data/</PackageProjectUrl>
+    <PackageIconUrl>http://static.threenine.co.uk/threeninedata_icon.png</PackageIconUrl>
+    <PackageTags>generic repository</PackageTags>
+    <Copyright>Copyright ©2018 Three Nine Consulting Limited</Copyright>
+    <Description>A simple generic repository wrapper library for entity framework core</Description>
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/threenine/GenericRepository</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+     <PackageReleaseNotes>Had to re-release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.4" />
+     <PackageReference Include="Microsoft.EntityFrameworkCore.AutoHistory" Version="2.1.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
